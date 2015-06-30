@@ -10,7 +10,7 @@ describe 'Boggle_Solver' do
   it 'BoggleSolver#trie' do
     boggle  = BoggleSolver.new
     trie = boggle.trie
-    expect_any_instance_of(Object)
+    expect(trie.class).to eq(Trie)
   end
 
   it 'BoggleSolver#neighbor_cell' do

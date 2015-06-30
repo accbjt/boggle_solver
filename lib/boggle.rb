@@ -1,3 +1,17 @@
+#Trie Data Structure
+#Get an example that you know the outcome
+#Get a dictionary text file.
+#Find all possible words that can be on the dice
+#Start on First letter
+#Check the Trie if it's there
+#Check the surrounding neighbor letter
+#check your Trie node and sibling to check if it is in the trie
+#check if the letters combine is actually a word in the trie
+#use the next letter that is a child of the trei node by location
+#check all neighbors
+#do this recursively until you have no words or letter possible in the trie
+#I would iterate through all letter on the dice board.
+
 require 'trie'
 
 class BoggleSolver
